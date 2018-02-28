@@ -3238,3 +3238,376 @@ django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 5: 'if'. Lo
 [01/Mar/2018 03:19:04] INFO [django.server:124] "GET /post/2/ HTTP/1.1" 200 773
 [01/Mar/2018 03:19:06] DEBUG [django.db.backends:90] (0.001) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 1; args=(1,)
 [01/Mar/2018 03:19:06] INFO [django.server:124] "GET /post/1/ HTTP/1.1" 200 793
+[01/Mar/2018 03:37:17] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:37:17] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:37:21] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:37:21.588411' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:37:21.588411',)
+[01/Mar/2018 03:37:21] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:37:21] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 304 0
+[01/Mar/2018 03:37:24] INFO [django.server:124] "GET /post/new/ HTTP/1.1" 200 1212
+[01/Mar/2018 03:37:48] INFO [django.server:124] "POST /post/new/ HTTP/1.1" 200 1212
+[01/Mar/2018 03:38:05] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:38:05] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:40:57] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:40:57] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:41:51] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:41:51] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:41:54] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:41:54] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:42:57] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:42:57] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:43:13] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:43:13] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:43:18] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:43:18] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:43:26] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:43:26] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:44:56] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:44:56] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:45:02] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:45:02.731299' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:45:02.731299',)
+[01/Mar/2018 03:45:02] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:45:02] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 304 0
+[01/Mar/2018 03:45:04] INFO [django.server:124] "GET /post/new/ HTTP/1.1" 200 1212
+[01/Mar/2018 03:45:13] INFO [django.server:124] "GET /post/new/ HTTP/1.1" 200 1212
+[01/Mar/2018 03:45:30] ERROR [django.request:135] Internal Server Error: /post/new/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 23, in post_new
+    post.author = request.user
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 216, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "<SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x1048c6940>>": "Post.author" must be a "User" instance.
+[01/Mar/2018 03:45:30] ERROR [django.server:124] "POST /post/new/ HTTP/1.1" 500 69512
+[01/Mar/2018 03:45:57] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:45:57] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:47:30] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:47:30] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:47:37] ERROR [django.request:135] Internal Server Error: /post/new/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 23, in post_new
+    post.author = "admin"
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 216, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "'admin'": "Post.author" must be a "User" instance.
+[01/Mar/2018 03:47:37] ERROR [django.server:124] "POST /post/new/ HTTP/1.1" 500 69119
+[01/Mar/2018 03:47:45] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:47:45] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:47:51] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:47:51.075950' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:47:51.075950',)
+[01/Mar/2018 03:47:51] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:47:53] INFO [django.server:124] "GET /post/new/ HTTP/1.1" 200 1212
+[01/Mar/2018 03:47:59] ERROR [django.request:135] Internal Server Error: /post/new/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 23, in post_new
+    post.author = "admin"
+  File "/usr/local/lib/python3.6/site-packages/django/db/models/fields/related_descriptors.py", line 216, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "'admin'": "Post.author" must be a "User" instance.
+[01/Mar/2018 03:47:59] ERROR [django.server:124] "POST /post/new/ HTTP/1.1" 500 69060
+[01/Mar/2018 03:49:15] DEBUG [django.db.backends:90] (0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" LIMIT 21; args=()
+[01/Mar/2018 03:49:42] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 03:56:18] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:56:18] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:56:24] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:56:24] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:56:28] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:56:28.735745' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:56:28.735745',)
+[01/Mar/2018 03:56:28] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:56:28] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 304 0
+[01/Mar/2018 03:56:29] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:56:29] INFO [django.server:124] "GET /post/3/ HTTP/1.1" 200 961
+[01/Mar/2018 03:56:31] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:56:31] INFO [django.server:124] "GET /post/3/edit/ HTTP/1.1" 200 1237
+[01/Mar/2018 03:56:34] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:56:34] INFO [django.server:124] "POST /post/3/edit/ HTTP/1.1" 200 1237
+[01/Mar/2018 03:56:36] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:56:36] INFO [django.server:124] "GET /post/3/edit/ HTTP/1.1" 200 1237
+[01/Mar/2018 03:56:39] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:56:39.666705' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:56:39.666705',)
+[01/Mar/2018 03:56:39] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:56:40] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:56:40.241091' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:56:40.241091',)
+[01/Mar/2018 03:56:40] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:56:40] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:56:40.424816' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:56:40.424816',)
+[01/Mar/2018 03:56:40] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:56:54] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:56:54] INFO [django.server:124] "GET /post/3/ HTTP/1.1" 200 961
+[01/Mar/2018 03:56:55] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:56:55] INFO [django.server:124] "GET /post/3/edit/ HTTP/1.1" 200 1237
+[01/Mar/2018 03:56:57] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:56:57] INFO [django.server:124] "POST /post/3/edit/ HTTP/1.1" 200 1237
+[01/Mar/2018 03:56:59] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:56:59] INFO [django.server:124] "GET /post/3/edit/ HTTP/1.1" 200 1237
+[01/Mar/2018 03:57:01] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:57:01.401190' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:57:01.401190',)
+[01/Mar/2018 03:57:01] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:57:01] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:57:01.985059' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:57:01.985059',)
+[01/Mar/2018 03:57:01] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:57:02] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:57:02.168244' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:57:02.168244',)
+[01/Mar/2018 03:57:02] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:57:02] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:57:02.320069' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:57:02.320069',)
+[01/Mar/2018 03:57:02] INFO [django.server:124] "GET / HTTP/1.1" 200 1218
+[01/Mar/2018 03:57:02] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:57:02] INFO [django.server:124] "GET /post/3/ HTTP/1.1" 200 961
+[01/Mar/2018 03:57:03] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:57:03] INFO [django.server:124] "GET /post/3/edit/ HTTP/1.1" 200 1237
+[01/Mar/2018 03:57:15] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:57:15] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:57:34] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:57:34] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:58:12] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:58:12] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:59:34] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:59:34.592923' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:59:34.592923',)
+[01/Mar/2018 03:59:34] INFO [django.server:124] "GET / HTTP/1.1" 200 1130
+[01/Mar/2018 03:59:40] INFO [django.server:124] "GET /admin HTTP/1.1" 301 0
+[01/Mar/2018 03:59:40] INFO [django.server:124] "GET /admin/ HTTP/1.1" 302 0
+[01/Mar/2018 03:59:41] DEBUG [django.template:925] Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.6/site-packages/django/template/context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x10da0e7b8>>, 'request': <WSGIRequest: GET '/admin/login/?next=/admin/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x10da98a20>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10dab1be0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10da989b0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x10da98ba8>, 'next': '/admin/', 'site': <django.contrib.sites.requests.RequestSite object at 0x10da98e48>, 'site_name': '127.0.0.1:8000', 'site_title': 'Django 사이트 관리', 'site_header': 'Django 관리', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': '로그인', 'app_path': '/admin/login/?next=/admin/', 'username': '', 'LANGUAGE_CODE': 'ko', 'LANGUAGE_BIDI': False}]"
+[01/Mar/2018 03:59:41] DEBUG [django.template:925] Exception while resolving variable 'is_popup' in template 'admin/login.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.6/site-packages/django/template/context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x10da0e7b8>>, 'request': <WSGIRequest: GET '/admin/login/?next=/admin/'>, 'user': <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x10da98a20>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10dab1be0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10da989b0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'form': <AdminAuthenticationForm bound=False, valid=Unknown, fields=(username;password)>, 'view': <django.contrib.auth.views.LoginView object at 0x10da98ba8>, 'next': '/admin/', 'site': <django.contrib.sites.requests.RequestSite object at 0x10da98e48>, 'site_name': '127.0.0.1:8000', 'site_title': 'Django 사이트 관리', 'site_header': 'Django 관리', 'site_url': '/', 'has_permission': False, 'available_apps': [], 'title': '로그인', 'app_path': '/admin/login/?next=/admin/', 'username': '', 'LANGUAGE_CODE': 'ko', 'LANGUAGE_BIDI': False}]"
+[01/Mar/2018 03:59:41] INFO [django.server:124] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1667
+[01/Mar/2018 03:59:41] INFO [django.server:124] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[01/Mar/2018 03:59:41] INFO [django.server:124] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[01/Mar/2018 03:59:41] INFO [django.server:124] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[01/Mar/2018 03:59:41] INFO [django.server:124] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[01/Mar/2018 03:59:41] INFO [django.server:124] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[01/Mar/2018 03:59:43] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."username" = 'admin'; args=('admin',)
+[01/Mar/2018 03:59:43] DEBUG [django.db.backends:90] (0.000) SELECT (1) AS "a" FROM "django_session" WHERE "django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' LIMIT 1; args=('mz306i9etkbkd1m2udof51lmbal2pgmt',)
+[01/Mar/2018 03:59:43] DEBUG [django.db.backends:90] (0.000) BEGIN; args=None
+[01/Mar/2018 03:59:43] DEBUG [django.db.backends:90] (0.000) INSERT INTO "django_session" ("session_key", "session_data", "expire_date") SELECT 'mz306i9etkbkd1m2udof51lmbal2pgmt', 'MWRmOTI3Y2NlNGM4NDE3YzQyY2I0ZTI5MjI2YzEyYzZjMmE1NzcxODp7fQ==', '2018-03-14 18:59:43.838083'; args=('mz306i9etkbkd1m2udof51lmbal2pgmt', 'MWRmOTI3Y2NlNGM4NDE3YzQyY2I0ZTI5MjI2YzEyYzZjMmE1NzcxODp7fQ==', '2018-03-14 18:59:43.838083')
+[01/Mar/2018 03:59:43] DEBUG [django.db.backends:90] (0.000) BEGIN; args=None
+[01/Mar/2018 03:59:43] DEBUG [django.db.backends:90] (0.000) UPDATE "auth_user" SET "last_login" = '2018-02-28 18:59:43.840301' WHERE "auth_user"."id" = 1; args=('2018-02-28 18:59:43.840301', 1)
+[01/Mar/2018 03:59:43] DEBUG [django.db.backends:90] (0.000) BEGIN; args=None
+[01/Mar/2018 03:59:43] DEBUG [django.db.backends:90] (0.000) UPDATE "django_session" SET "session_data" = 'NmM3NmZlMDFkZGRiOWVlZWUzYTE2MjZkZjFkMTA3ODczYjQyZjdjMDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmNmZjNDRmN2Q5NzVlNzRmZGQ1MTRiZTk1YzQ4Yjk5OTdlOThhOTIzIn0=', "expire_date" = '2018-03-14 18:59:43.842912' WHERE "django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt'; args=('NmM3NmZlMDFkZGRiOWVlZWUzYTE2MjZkZjFkMTA3ODczYjQyZjdjMDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmNmZjNDRmN2Q5NzVlNzRmZGQ1MTRiZTk1YzQ4Yjk5OTdlOThhOTIzIn0=', '2018-03-14 18:59:43.842912', 'mz306i9etkbkd1m2udof51lmbal2pgmt')
+[01/Mar/2018 03:59:43] INFO [django.server:124] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[01/Mar/2018 03:59:43] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 18:59:43.978336'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 18:59:43.978336')
+[01/Mar/2018 03:59:43] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 03:59:43] DEBUG [django.template:925] Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.6/site-packages/django/template/context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x10da0e7b8>>, 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10dac6358>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10dace828>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django 사이트 관리', 'site_header': 'Django 관리', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Auths', 'object_name': 'Auth', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/auth/', 'add_url': '/admin/blog/auth/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': '인증 및 권한', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': '그룹', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': '사용자(들)', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}], 'title': '사이트 관리', 'app_list': [{'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Auths', 'object_name': 'Auth', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/auth/', 'add_url': '/admin/blog/auth/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': '인증 및 권한', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': '그룹', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': '사용자(들)', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}], 'LANGUAGE_CODE': 'ko', 'LANGUAGE_BIDI': False}]"
+[01/Mar/2018 03:59:43] DEBUG [django.template:925] Exception while resolving variable 'is_popup' in template 'admin/index.html'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 882, in _resolve_lookup
+    current = current[bit]
+  File "/usr/local/lib/python3.6/site-packages/django/template/context.py", line 87, in __getitem__
+    raise KeyError(key)
+KeyError: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 888, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'is_popup'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [is_popup] in "[{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: <function csrf.<locals>._get_val at 0x10da0e7b8>>, 'request': <WSGIRequest: GET '/admin/'>, 'user': <SimpleLazyObject: <User: admin>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x10dac6358>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x10dace828>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'site_title': 'Django 사이트 관리', 'site_header': 'Django 관리', 'site_url': '/', 'has_permission': True, 'available_apps': [{'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Auths', 'object_name': 'Auth', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/auth/', 'add_url': '/admin/blog/auth/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': '인증 및 권한', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': '그룹', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': '사용자(들)', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}], 'title': '사이트 관리', 'app_list': [{'name': 'Blog', 'app_label': 'blog', 'app_url': '/admin/blog/', 'has_module_perms': True, 'models': [{'name': 'Auths', 'object_name': 'Auth', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/auth/', 'add_url': '/admin/blog/auth/add/'}, {'name': 'Posts', 'object_name': 'Post', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/blog/post/', 'add_url': '/admin/blog/post/add/'}]}, {'name': '인증 및 권한', 'app_label': 'auth', 'app_url': '/admin/auth/', 'has_module_perms': True, 'models': [{'name': '그룹', 'object_name': 'Group', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/group/', 'add_url': '/admin/auth/group/add/'}, {'name': '사용자(들)', 'object_name': 'User', 'perms': {'add': True, 'change': True, 'delete': True}, 'admin_url': '/admin/auth/user/', 'add_url': '/admin/auth/user/add/'}]}], 'LANGUAGE_CODE': 'ko', 'LANGUAGE_BIDI': False}]"
+[01/Mar/2018 03:59:44] DEBUG [django.db.backends:90] (0.000) SELECT "django_admin_log"."id", "django_admin_log"."action_time", "django_admin_log"."user_id", "django_admin_log"."content_type_id", "django_admin_log"."object_id", "django_admin_log"."object_repr", "django_admin_log"."action_flag", "django_admin_log"."change_message", "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined", "django_content_type"."id", "django_content_type"."app_label", "django_content_type"."model" FROM "django_admin_log" INNER JOIN "auth_user" ON ("django_admin_log"."user_id" = "auth_user"."id") LEFT OUTER JOIN "django_content_type" ON ("django_admin_log"."content_type_id" = "django_content_type"."id") WHERE "django_admin_log"."user_id" = 1 ORDER BY "django_admin_log"."action_time" DESC LIMIT 10; args=(1,)
+[01/Mar/2018 03:59:44] INFO [django.server:124] "GET /admin/ HTTP/1.1" 200 4994
+[01/Mar/2018 03:59:44] INFO [django.server:124] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[01/Mar/2018 03:59:44] INFO [django.server:124] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[01/Mar/2018 03:59:44] INFO [django.server:124] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[01/Mar/2018 03:59:44] INFO [django.server:124] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[01/Mar/2018 03:59:47] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 18:59:47.278995'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 18:59:47.278995')
+[01/Mar/2018 03:59:47] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 03:59:47] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:59:47.277053' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:59:47.277053',)
+[01/Mar/2018 03:59:47] INFO [django.server:124] "GET / HTTP/1.1" 200 1226
+[01/Mar/2018 03:59:48] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:59:48] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 18:59:48.832980'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 18:59:48.832980')
+[01/Mar/2018 03:59:48] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 03:59:48] INFO [django.server:124] "GET /post/3/ HTTP/1.1" 200 975
+[01/Mar/2018 03:59:49] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:59:49] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 18:59:49.698966'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 18:59:49.698966')
+[01/Mar/2018 03:59:49] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 03:59:49] INFO [django.server:124] "GET /post/3/edit/ HTTP/1.1" 200 1245
+[01/Mar/2018 03:59:51] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:59:51] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 18:59:51.363351'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 18:59:51.363351')
+[01/Mar/2018 03:59:51] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 03:59:51] INFO [django.server:124] "POST /post/3/edit/ HTTP/1.1" 200 1245
+[01/Mar/2018 03:59:54] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 18:59:54.779335'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 18:59:54.779335')
+[01/Mar/2018 03:59:54] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 03:59:54] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:59:54.777228' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:59:54.777228',)
+[01/Mar/2018 03:59:54] INFO [django.server:124] "GET / HTTP/1.1" 200 1226
+[01/Mar/2018 03:59:56] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:59:56] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 18:59:56.704450'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 18:59:56.704450')
+[01/Mar/2018 03:59:56] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 03:59:56] INFO [django.server:124] "GET /post/3/ HTTP/1.1" 200 975
+[01/Mar/2018 03:59:57] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:59:57] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 18:59:57.812853'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 18:59:57.812853')
+[01/Mar/2018 03:59:57] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 03:59:57] INFO [django.server:124] "GET /post/3/edit/ HTTP/1.1" 200 1245
+[01/Mar/2018 03:59:59] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:59:59] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 18:59:59.931078'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 18:59:59.931078')
+[01/Mar/2018 03:59:59] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 03:59:59] INFO [django.server:124] "POST /post/3/edit/ HTTP/1.1" 200 1245
+[01/Mar/2018 04:00:02] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 04:00:02] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 19:00:02.796871'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 19:00:02.796871')
+[01/Mar/2018 04:00:02] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 04:00:02] INFO [django.server:124] "GET /post/3/edit/ HTTP/1.1" 200 1245
+[01/Mar/2018 04:00:06] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 04:00:06] DEBUG [django.db.backends:90] (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'mz306i9etkbkd1m2udof51lmbal2pgmt' AND "django_session"."expire_date" > '2018-02-28 19:00:06.364727'); args=('mz306i9etkbkd1m2udof51lmbal2pgmt', '2018-02-28 19:00:06.364727')
+[01/Mar/2018 04:00:06] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
+[01/Mar/2018 04:00:06] INFO [django.server:124] "GET /post/3/ HTTP/1.1" 200 975
+[01/Mar/2018 04:00:18] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 04:00:18] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 04:00:24] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 04:00:24] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
