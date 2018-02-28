@@ -2485,3 +2485,756 @@ django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 10: 'for'. 
 [01/Mar/2018 02:18:21] INFO [django.server:124] "GET / HTTP/1.1" 200 575
 [01/Mar/2018 02:18:21] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:18:21.831532' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:18:21.831532',)
 [01/Mar/2018 02:18:21] INFO [django.server:124] "GET / HTTP/1.1" 200 575
+[01/Mar/2018 02:40:05] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 02:40:05] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 02:40:07] DEBUG [django.db.backends:90] (0.001) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:40:07.593135' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:40:07.593135',)
+[01/Mar/2018 02:40:07] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:40:16] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:40:16.020791' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:40:16.020791',)
+[01/Mar/2018 02:40:16] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:40:23] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:40:23.561588' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:40:23.561588',)
+[01/Mar/2018 02:40:23] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:40:37] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:40:37.265337' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:40:37.265337',)
+[01/Mar/2018 02:40:37] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:42:51] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 02:42:51] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 02:42:53] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:42:53.147063' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:42:53.147063',)
+[01/Mar/2018 02:42:53] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:43:04] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:43:04.515004' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:43:04.515004',)
+[01/Mar/2018 02:43:04] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:43:06] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:43:06.160339' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:43:06.160339',)
+[01/Mar/2018 02:43:06] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:43:19] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:43:19.577007' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:43:19.577007',)
+[01/Mar/2018 02:43:19] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:43:24] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 02:43:24] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 02:43:25] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:43:25.483407' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:43:25.483407',)
+[01/Mar/2018 02:43:25] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:43:27] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:43:27.680796' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:43:27.680796',)
+[01/Mar/2018 02:43:27] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:44:35] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:44:35.772245' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:44:35.772245',)
+[01/Mar/2018 02:44:35] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:44:43] DEBUG [django.template:925] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'blog.urls' from '/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/urls.py'> (None:None) >, <RegexURLPattern post_list ^$>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+[01/Mar/2018 02:44:43] WARNING [django.request:152] Not Found: /favicon.ico
+[01/Mar/2018 02:44:43] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 2129
+[01/Mar/2018 02:44:45] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:44:45.432893' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:44:45.432893',)
+[01/Mar/2018 02:44:45] INFO [django.server:124] "GET / HTTP/1.1" 200 775
+[01/Mar/2018 02:49:11] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 02:49:11] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 02:49:13] DEBUG [django.db.backends:90] (0.001) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:49:13.209257' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:49:13.209257',)
+[01/Mar/2018 02:49:13] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:49:13] WARNING [django.server:124] "GET /static/css/blog.css HTTP/1.1" 404 1649
+[01/Mar/2018 02:49:14] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:49:14.101710' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:49:14.101710',)
+[01/Mar/2018 02:49:14] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:49:14] WARNING [django.server:124] "GET /static/css/blog.css HTTP/1.1" 404 1649
+[01/Mar/2018 02:49:14] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:49:14.302461' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:49:14.302461',)
+[01/Mar/2018 02:49:14] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:49:14] WARNING [django.server:124] "GET /static/css/blog.css HTTP/1.1" 404 1649
+[01/Mar/2018 02:49:14] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:49:14.494087' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:49:14.494087',)
+[01/Mar/2018 02:49:14] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:49:14] WARNING [django.server:124] "GET /static/css/blog.css HTTP/1.1" 404 1649
+[01/Mar/2018 02:49:14] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:49:14.678099' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:49:14.678099',)
+[01/Mar/2018 02:49:14] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:49:14] WARNING [django.server:124] "GET /static/css/blog.css HTTP/1.1" 404 1649
+[01/Mar/2018 02:49:46] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:49:46.013029' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:49:46.013029',)
+[01/Mar/2018 02:49:46] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:49:46] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 200 25
+[01/Mar/2018 02:50:07] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:07.317662' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:07.317662',)
+[01/Mar/2018 02:50:07] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:08] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:08.332027' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:08.332027',)
+[01/Mar/2018 02:50:08] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:08] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:08.956054' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:08.956054',)
+[01/Mar/2018 02:50:08] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:09] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:09.146864' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:09.146864',)
+[01/Mar/2018 02:50:09] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:12] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:12.963617' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:12.963617',)
+[01/Mar/2018 02:50:12] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:13] DEBUG [django.db.backends:90] (0.001) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:13.580328' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:13.580328',)
+[01/Mar/2018 02:50:13] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:13] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:13.850121' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:13.850121',)
+[01/Mar/2018 02:50:13] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:14] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:14.026571' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:14.026571',)
+[01/Mar/2018 02:50:14] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:17] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 02:50:17] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 02:50:18] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:18.404950' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:18.404950',)
+[01/Mar/2018 02:50:18] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:19] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:19.219421' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:19.219421',)
+[01/Mar/2018 02:50:19] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:22] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:22.419273' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:22.419273',)
+[01/Mar/2018 02:50:22] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:23] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:23.147680' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:23.147680',)
+[01/Mar/2018 02:50:23] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:23] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:23.611715' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:23.611715',)
+[01/Mar/2018 02:50:23] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:23] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:23.802871' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:23.802871',)
+[01/Mar/2018 02:50:23] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:50:23] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:50:23.979256' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:50:23.979256',)
+[01/Mar/2018 02:50:23] INFO [django.server:124] "GET / HTTP/1.1" 200 829
+[01/Mar/2018 02:51:28] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:51:28.641394' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:51:28.641394',)
+[01/Mar/2018 02:51:28] INFO [django.server:124] "GET / HTTP/1.1" 200 943
+[01/Mar/2018 02:51:28] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 200 82
+[01/Mar/2018 02:51:29] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:51:29.592692' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:51:29.592692',)
+[01/Mar/2018 02:51:29] INFO [django.server:124] "GET / HTTP/1.1" 200 943
+[01/Mar/2018 02:51:29] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 304 0
+[01/Mar/2018 02:51:36] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:51:36.401818' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:51:36.401818',)
+[01/Mar/2018 02:51:36] INFO [django.server:124] "GET / HTTP/1.1" 200 943
+[01/Mar/2018 02:51:36] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 200 83
+[01/Mar/2018 02:54:26] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:54:26.986087' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:54:26.986087',)
+[01/Mar/2018 02:54:26] INFO [django.server:124] "GET / HTTP/1.1" 200 1171
+[01/Mar/2018 02:54:27] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 200 786
+[01/Mar/2018 02:58:46] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:58:46.191299' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:58:46.191299',)
+[01/Mar/2018 02:58:46] INFO [django.server:124] "GET / HTTP/1.1" 200 1102
+[01/Mar/2018 02:58:46] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 304 0
+[01/Mar/2018 02:58:46] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:58:46.918657' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:58:46.918657',)
+[01/Mar/2018 02:58:46] INFO [django.server:124] "GET / HTTP/1.1" 200 1102
+[01/Mar/2018 02:58:47] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:58:47.110540' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:58:47.110540',)
+[01/Mar/2018 02:58:47] INFO [django.server:124] "GET / HTTP/1.1" 200 1102
+[01/Mar/2018 02:58:47] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:58:47.261660' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:58:47.261660',)
+[01/Mar/2018 02:58:47] INFO [django.server:124] "GET / HTTP/1.1" 200 1102
+[01/Mar/2018 02:58:47] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:58:47.404827' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:58:47.404827',)
+[01/Mar/2018 02:58:47] INFO [django.server:124] "GET / HTTP/1.1" 200 1102
+[01/Mar/2018 02:58:47] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:58:47.550446' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:58:47.550446',)
+[01/Mar/2018 02:58:47] INFO [django.server:124] "GET / HTTP/1.1" 200 1102
+[01/Mar/2018 02:58:47] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:58:47.694669' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:58:47.694669',)
+[01/Mar/2018 02:58:47] INFO [django.server:124] "GET / HTTP/1.1" 200 1102
+[01/Mar/2018 02:58:52] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 02:58:52] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 02:58:53] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:58:53.248991' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:58:53.248991',)
+[01/Mar/2018 02:58:53] INFO [django.server:124] "GET / HTTP/1.1" 200 1102
+[01/Mar/2018 02:58:53] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:58:53.820685' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:58:53.820685',)
+[01/Mar/2018 02:58:53] INFO [django.server:124] "GET / HTTP/1.1" 200 1102
+[01/Mar/2018 02:58:53] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 17:58:53.989254' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 17:58:53.989254',)
+[01/Mar/2018 02:58:53] INFO [django.server:124] "GET / HTTP/1.1" 200 1102
+[01/Mar/2018 03:01:52] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:01:52.208371' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:01:52.208371',)
+[01/Mar/2018 03:01:52] ERROR [django.request:135] Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 11, in post_list
+    return render(request, 'blog/post_list.html', {'posts': posts})
+  File "/usr/local/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.6/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/defaulttags.py", line 216, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.6/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_detail' not found. 'post_detail' is not a valid view function or pattern name.
+[01/Mar/2018 03:01:52] ERROR [django.server:124] "GET / HTTP/1.1" 500 152146
+[01/Mar/2018 03:08:22] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:08:22] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:10:27] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:10:27] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:10:36] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:10:36] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:10:50] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:10:50] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:10:53] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-02-28 18:10:53.679288' ORDER BY "blog_post"."published_date" ASC; args=('2018-02-28 18:10:53.679288',)
+[01/Mar/2018 03:10:53] INFO [django.server:124] "GET / HTTP/1.1" 200 1126
+[01/Mar/2018 03:10:53] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 304 0
+[01/Mar/2018 03:10:56] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    port = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:10:56] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62321
+[01/Mar/2018 03:11:26] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:11:26] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:11:31] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:11:31] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:13:45] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    port = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:13:45] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:13:46] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    port = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:13:46] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:13:47] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    port = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:13:47] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:13:48] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    port = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:13:48] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62457
+[01/Mar/2018 03:13:57] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:13:57] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:13:59] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    port = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:13:59] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:14:47] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:14:47] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:14:51] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:14:51] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:14:57] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:14:57] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:15:00] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:15:00] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:15:04] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    port = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:15:04] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:15:05] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    port = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:15:05] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:15:06] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    port = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:15:06] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:15:06] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    port = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:15:06] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:15:56] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:15:56] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:16:01] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    post = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:16:01] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:16:02] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    post = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:16:02] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62582
+[01/Mar/2018 03:16:02] DEBUG [django.template:925] Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 172, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/usr/local/lib/python3.6/site-packages/django/urls/resolvers.py", line 392, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>], [<RegexURLResolver <module 'blog.urls' from '/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/urls.py'> (None:None) >, <RegexURLPattern post_list ^$>], [<RegexURLResolver <module 'blog.urls' from '/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/urls.py'> (None:None) >, <RegexURLPattern post_detail ^post/(?P<pk>\d+)/$>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 882, in _resolve_lookup
+    current = current[bit]
+TypeError: 'RegexURLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 890, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'RegexURLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 896, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 903, in _resolve_lookup
+    (bit, current))  # missing attribute
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in '<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+[01/Mar/2018 03:16:02] WARNING [django.request:152] Not Found: /favicon.ico
+[01/Mar/2018 03:16:02] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 2321
+[01/Mar/2018 03:16:03] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    post = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:16:03] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:16:03] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    post = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:16:03] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:16:04] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    post = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:16:04] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:16:04] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    post = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:16:04] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:16:08] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:16:08] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:16:30] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:16:30] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:16:44] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:16:44] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:16:52] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:16:52] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:16:54] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    post = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:16:54] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:16:55] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    post = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:16:55] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:16:55] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    post = get_obejct_or_404(Post, pk=pk)
+NameError: name 'get_obejct_or_404' is not defined
+[01/Mar/2018 03:16:56] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62456
+[01/Mar/2018 03:17:22] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:17:22] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:17:26] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:17:26] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:17:28] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    post = django.shortcuts.get_obejct_or_404(Post, pk=pk)
+NameError: name 'django' is not defined
+[01/Mar/2018 03:17:28] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62446
+[01/Mar/2018 03:17:28] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    post = django.shortcuts.get_obejct_or_404(Post, pk=pk)
+NameError: name 'django' is not defined
+[01/Mar/2018 03:17:28] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62446
+[01/Mar/2018 03:17:31] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 15, in post_detail
+    post = django.shortcuts.get_obejct_or_404(Post, pk=pk)
+NameError: name 'django' is not defined
+[01/Mar/2018 03:17:31] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62446
+[01/Mar/2018 03:17:37] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:17:37] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:17:46] DEBUG [django.db.backends:90] (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:17:46] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:17:49] DEBUG [django.db.backends:90] (0.001) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:17:49] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    return render(request, 'blog/post_detail.html', {'post':post})
+NameError: name 'request' is not defined
+[01/Mar/2018 03:17:49] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62373
+[01/Mar/2018 03:17:56] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:17:56] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:17:57] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:17:57] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    return render(request, 'blog/post_detail.html', {'post':post})
+NameError: name 'request' is not defined
+[01/Mar/2018 03:17:57] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62373
+[01/Mar/2018 03:17:59] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:17:59] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    return render(request, 'blog/post_detail.html', {'post':post})
+NameError: name 'request' is not defined
+[01/Mar/2018 03:17:59] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62373
+[01/Mar/2018 03:18:14] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:18:14] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    return render(request, 'blog/post_detail.html', {'post':post})
+NameError: name 'request' is not defined
+[01/Mar/2018 03:18:14] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 62373
+[01/Mar/2018 03:18:30] DEBUG [django.db.backends:90] (0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+[01/Mar/2018 03:18:30] DEBUG [django.db.backends:90] (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+[01/Mar/2018 03:18:33] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:18:33] ERROR [django.request:135] Internal Server Error: /post/3/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/crizen/Documents/yckim_workspace/python_workspace/my-first-django/blog/views.py", line 16, in post_detail
+    return render(request, 'blog/post_detail.html', {'post':post})
+  File "/usr/local/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.6/site-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.6/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.6/site-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python3.6/site-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader_tags.py", line 312, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.6/site-packages/django/template/loader_tags.py", line 255, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 513, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.6/site-packages/django/template/defaulttags.py", line 969, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 520, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/usr/local/lib/python3.6/site-packages/django/template/base.py", line 581, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 5: 'if'. Looking for one of: elif, else, endif.
+[01/Mar/2018 03:18:33] ERROR [django.server:124] "GET /post/3/ HTTP/1.1" 500 153024
+[01/Mar/2018 03:18:59] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 3; args=(3,)
+[01/Mar/2018 03:18:59] INFO [django.server:124] "GET /post/3/ HTTP/1.1" 200 766
+[01/Mar/2018 03:18:59] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 304 0
+[01/Mar/2018 03:19:04] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 2; args=(2,)
+[01/Mar/2018 03:19:04] INFO [django.server:124] "GET /post/2/ HTTP/1.1" 200 773
+[01/Mar/2018 03:19:06] DEBUG [django.db.backends:90] (0.001) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."id" = 1; args=(1,)
+[01/Mar/2018 03:19:06] INFO [django.server:124] "GET /post/1/ HTTP/1.1" 200 793
