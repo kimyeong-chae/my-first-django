@@ -19,6 +19,9 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+    def toString(self):
+        return 'author : [{}], title : [{}], text : [{}], created_date : [{}], published_date : [{}]'.format(self.author, self.title, self.text, self.created_date, self.published_date )
+
 
 class Auth(models.Model):
     name = models.TextField()
