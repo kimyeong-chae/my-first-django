@@ -5849,3 +5849,397 @@ django.template.base.VariableDoesNotExist: Failed lookup for key [non_field_erro
 [02/Mar/2018 11:40:37] DEBUG [django.db.backends:90] (0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1; args=(1,)
 [02/Mar/2018 11:40:37] DEBUG [django.db.backends:90] (0.000) SELECT "blog_post"."id", "blog_post"."author_id", "blog_post"."title", "blog_post"."text", "blog_post"."created_date", "blog_post"."published_date" FROM "blog_post" WHERE "blog_post"."published_date" <= '2018-03-02 02:40:37.508790' ORDER BY "blog_post"."published_date" ASC; args=('2018-03-02 02:40:37.508790',)
 [02/Mar/2018 11:40:37] INFO [django.server:124] "GET / HTTP/1.1" 200 1572
+[21/Mar/2018 00:04:28] INFO [django.server:124] "GET / HTTP/1.1" 200 664
+[21/Mar/2018 00:04:28] INFO [django.server:124] "GET /static/css/blog.css HTTP/1.1" 200 813
+[21/Mar/2018 00:04:28] WARNING [django.request:152] Not Found: /favicon.ico
+[21/Mar/2018 00:04:28] WARNING [django.server:124] "GET /favicon.ico HTTP/1.1" 404 2871
+[21/Mar/2018 00:04:29] INFO [django.server:124] "GET / HTTP/1.1" 200 664
+[21/Mar/2018 00:04:33] INFO [django.server:124] "GET / HTTP/1.1" 200 664
+[21/Mar/2018 00:04:33] INFO [django.server:124] "GET /admin HTTP/1.1" 301 0
+[21/Mar/2018 00:04:33] INFO [django.server:124] "GET /admin/ HTTP/1.1" 302 0
+[21/Mar/2018 00:04:33] INFO [django.server:124] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1667
+[21/Mar/2018 00:04:33] INFO [django.server:124] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[21/Mar/2018 00:04:33] INFO [django.server:124] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[21/Mar/2018 00:04:33] INFO [django.server:124] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[21/Mar/2018 00:04:33] INFO [django.server:124] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[21/Mar/2018 00:04:33] INFO [django.server:124] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[21/Mar/2018 00:04:33] INFO [django.server:124] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[21/Mar/2018 00:04:38] INFO [django.server:124] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1841
+[21/Mar/2018 00:05:16] INFO [django.server:124] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1667
+[21/Mar/2018 00:05:21] INFO [django.server:124] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[21/Mar/2018 00:05:21] INFO [django.server:124] "GET /admin/ HTTP/1.1" 200 3808
+[21/Mar/2018 00:05:21] INFO [django.server:124] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[21/Mar/2018 00:05:21] INFO [django.server:124] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[21/Mar/2018 00:05:21] INFO [django.server:124] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /admin/blog/post/add/ HTTP/1.1" 200 7182
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 8296
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[21/Mar/2018 00:05:23] INFO [django.server:124] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[21/Mar/2018 00:05:31] ERROR [django.request:135] Internal Server Error: /admin/blog/post/add/
+Traceback (most recent call last):
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (1366, "Incorrect string value: '\\xED\\x85\\x8C\\xEC\\x8A\\xA4...' for column 'title' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/contrib/admin/options.py", line 979, in save_model
+    obj.save()
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/cursors.py", line 165, in execute
+    result = self._query(query)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/cursors.py", line 321, in _query
+    conn.query(q)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/connections.py", line 860, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/connections.py", line 1061, in _read_query_result
+    result.read()
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/connections.py", line 1349, in read
+    first_packet = self.connection._read_packet()
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/connections.py", line 1018, in _read_packet
+    packet.check_error()
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/connections.py", line 384, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/pymysql/err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.InternalError: (1366, "Incorrect string value: '\\xED\\x85\\x8C\\xEC\\x8A\\xA4...' for column 'title' at row 1")
+[21/Mar/2018 00:05:31] ERROR [django.server:124] "POST /admin/blog/post/add/ HTTP/1.1" 500 248272
+[21/Mar/2018 00:06:44] INFO [django.server:124] "POST /admin/blog/post/add/ HTTP/1.1" 302 0
+[21/Mar/2018 00:06:44] INFO [django.server:124] "GET /admin/blog/post/ HTTP/1.1" 200 4421
+[21/Mar/2018 00:06:44] INFO [django.server:124] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[21/Mar/2018 00:06:44] INFO [django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 8296
+[21/Mar/2018 00:06:44] INFO [django.server:124] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[21/Mar/2018 00:06:44] INFO [django.server:124] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[21/Mar/2018 00:06:46] INFO [django.server:124] "GET /admin/blog/post/add/ HTTP/1.1" 200 7182
+[21/Mar/2018 00:06:46] INFO [django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 8296
+[21/Mar/2018 00:06:50] INFO [django.server:124] "POST /admin/blog/post/add/ HTTP/1.1" 200 7388
+[21/Mar/2018 00:06:50] INFO [django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 8296
+[21/Mar/2018 00:06:54] INFO [django.server:124] "POST /admin/blog/post/add/ HTTP/1.1" 302 0
+[21/Mar/2018 00:06:54] INFO [django.server:124] "GET /admin/blog/post/ HTTP/1.1" 200 4644
+[21/Mar/2018 00:06:54] INFO [django.server:124] "GET /admin/jsi18n/ HTTP/1.1" 200 8296
+[21/Mar/2018 00:07:02] INFO [django.server:124] "GET / HTTP/1.1" 200 852
+[21/Mar/2018 00:07:02] INFO [django.server:124] "GET / HTTP/1.1" 200 852
+[21/Mar/2018 00:07:03] INFO [django.server:124] "GET / HTTP/1.1" 200 852
+[21/Mar/2018 00:07:05] ERROR [django.request:135] Internal Server Error: /drafts/
+Traceback (most recent call last):
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yckim/Documents/atom-workspace/my-first-django/blog/views.py", line 23, in post_draft_list
+    return render(request, 'blog/post_draft_list', {'posts' : posts})
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_draft_list
+[21/Mar/2018 00:07:05] ERROR [django.server:124] "GET /drafts/ HTTP/1.1" 500 78552
+[21/Mar/2018 00:07:12] INFO [django.server:124] "GET /post/new/ HTTP/1.1" 200 1342
+[21/Mar/2018 00:07:15] INFO [django.server:124] "POST /post/new/ HTTP/1.1" 302 0
+[21/Mar/2018 00:07:15] INFO [django.server:124] "GET / HTTP/1.1" 200 852
+[21/Mar/2018 00:07:17] INFO [django.server:124] "GET / HTTP/1.1" 200 852
+[21/Mar/2018 00:07:17] INFO [django.server:124] "GET / HTTP/1.1" 200 852
+[21/Mar/2018 00:11:47] INFO [django.server:124] "GET / HTTP/1.1" 200 1316
+[21/Mar/2018 00:11:48] INFO [django.server:124] "GET /post/1/ HTTP/1.1" 200 1092
+[21/Mar/2018 00:11:49] INFO [blog:41] author : [yckim], title : [test.], text : [test], created_date : [2018-03-20 15:05:23+00:00], published_date : [2018-03-20 15:05:23+00:00]
+[21/Mar/2018 00:11:49] INFO [django.server:124] "GET /post/1/edit/ HTTP/1.1" 200 1360
+[21/Mar/2018 00:11:53] INFO [blog:41] author : [yckim], title : [test.], text : [test], created_date : [2018-03-20 15:05:23+00:00], published_date : [2018-03-20 15:05:23+00:00]
+[21/Mar/2018 00:11:53] INFO [django.server:124] "POST /post/1/edit/ HTTP/1.1" 302 0
+[21/Mar/2018 00:11:53] INFO [django.server:124] "GET /post/1/ HTTP/1.1" 200 1103
+[21/Mar/2018 00:11:55] INFO [django.server:124] "GET / HTTP/1.1" 200 1327
+[21/Mar/2018 00:12:35] ERROR [django.request:135] Internal Server Error: /drafts/
+Traceback (most recent call last):
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yckim/Documents/atom-workspace/my-first-django/blog/views.py", line 23, in post_draft_list
+    return render(request, 'blog/post_draft_list', {'posts' : posts})
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_draft_list
+[21/Mar/2018 00:12:35] ERROR [django.server:124] "GET /drafts/ HTTP/1.1" 500 78552
+[21/Mar/2018 00:13:49] ERROR [django.request:135] Internal Server Error: /drafts/
+Traceback (most recent call last):
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yckim/Documents/atom-workspace/my-first-django/blog/views.py", line 23, in post_draft_list
+    return render(request, 'blog/post_draft_list', {'posts' : posts})
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_draft_list
+[21/Mar/2018 00:13:49] ERROR [django.server:124] "GET /drafts/ HTTP/1.1" 500 78552
+[21/Mar/2018 00:14:45] ERROR [django.request:135] Internal Server Error: /drafts/
+Traceback (most recent call last):
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yckim/Documents/atom-workspace/my-first-django/blog/views.py", line 23, in post_draft_list
+    return render(request, 'blog/post_draft_list', {'posts' : posts})
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_draft_list
+[21/Mar/2018 00:14:45] ERROR [django.server:124] "GET /drafts/ HTTP/1.1" 500 78147
+[21/Mar/2018 00:14:47] ERROR [django.request:135] Internal Server Error: /drafts/
+Traceback (most recent call last):
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yckim/Documents/atom-workspace/my-first-django/blog/views.py", line 23, in post_draft_list
+    return render(request, 'blog/post_draft_list', {'posts' : posts})
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 25, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: blog/post_draft_list
+[21/Mar/2018 00:14:47] ERROR [django.server:124] "GET /drafts/ HTTP/1.1" 500 78147
+[21/Mar/2018 00:16:08] INFO [django.server:124] "GET /drafts/ HTTP/1.1" 200 852
+[21/Mar/2018 00:16:10] INFO [django.server:124] "GET /post/new/ HTTP/1.1" 200 1342
+[21/Mar/2018 00:16:13] INFO [django.server:124] "POST /post/new/ HTTP/1.1" 302 0
+[21/Mar/2018 00:16:13] INFO [django.server:124] "GET / HTTP/1.1" 200 1327
+[21/Mar/2018 00:16:15] INFO [django.server:124] "GET /drafts/ HTTP/1.1" 200 992
+[21/Mar/2018 00:16:16] INFO [django.server:124] "GET /post/4/ HTTP/1.1" 200 1020
+[21/Mar/2018 00:16:17] INFO [blog:41] author : [yckim], title : [asdf], text : [asdf], created_date : [2018-03-20 15:16:13.537259+00:00], published_date : [None]
+[21/Mar/2018 00:16:17] INFO [django.server:124] "GET /post/4/edit/ HTTP/1.1" 200 1359
+[21/Mar/2018 00:16:18] INFO [django.server:124] "GET / HTTP/1.1" 200 1327
+[21/Mar/2018 00:20:23] INFO [django.server:124] "GET / HTTP/1.1" 200 1327
+[21/Mar/2018 00:20:24] INFO [django.server:124] "GET /drafts/ HTTP/1.1" 200 992
+[21/Mar/2018 00:20:25] ERROR [django.request:135] Internal Server Error: /post/4/
+Traceback (most recent call last):
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yckim/Documents/atom-workspace/my-first-django/blog/views.py", line 19, in post_detail
+    return render(request, 'blog/post_detail.html', {'post':post})
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_publish' not found. 'post_publish' is not a valid view function or pattern name.
+[21/Mar/2018 00:20:26] ERROR [django.server:124] "GET /post/4/ HTTP/1.1" 500 159263
+[21/Mar/2018 00:20:56] ERROR [django.request:135] Internal Server Error: /post/4/
+Traceback (most recent call last):
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/yckim/Documents/atom-workspace/my-first-django/blog/views.py", line 19, in post_detail
+    return render(request, 'blog/post_detail.html', {'post':post})
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/backends/django.py", line 66, in render
+    return self.template.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 207, in render
+    return self._render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 177, in render
+    return compiled_parent._render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/loader_tags.py", line 72, in render
+    result = block.nodelist.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 990, in render
+    bit = node.render_annotated(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/base.py", line 957, in render_annotated
+    return self.render(context)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/template/defaulttags.py", line 458, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/urls/base.py", line 91, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/Users/yckim/Documents/atom-workspace/myvenv/lib/python3.6/site-packages/django/urls/resolvers.py", line 497, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_publish' not found. 'post_publish' is not a valid view function or pattern name.
+[21/Mar/2018 00:20:56] ERROR [django.server:124] "GET /post/4/ HTTP/1.1" 500 159263
+[21/Mar/2018 00:25:28] INFO [django.server:124] "GET /drafts/ HTTP/1.1" 200 992
+[21/Mar/2018 00:25:29] INFO [django.server:124] "GET / HTTP/1.1" 200 1327
+[21/Mar/2018 00:25:30] INFO [django.server:124] "GET /drafts/ HTTP/1.1" 200 992
+[21/Mar/2018 00:25:31] INFO [django.server:124] "GET /post/4/ HTTP/1.1" 200 1095
+[21/Mar/2018 00:25:32] INFO [django.server:124] "GET /post/4/publish/ HTTP/1.1" 302 0
+[21/Mar/2018 00:25:32] INFO [django.server:124] "GET /post/4/ HTTP/1.1" 200 1092
+[21/Mar/2018 00:25:35] INFO [django.server:124] "GET / HTTP/1.1" 200 1475
+[21/Mar/2018 00:25:40] INFO [django.server:124] "GET /post/1/ HTTP/1.1" 200 1104
+[21/Mar/2018 00:25:42] INFO [django.server:124] "GET / HTTP/1.1" 200 1475
+[21/Mar/2018 00:28:48] INFO [django.server:124] "GET / HTTP/1.1" 200 1475
+[21/Mar/2018 00:28:49] INFO [django.server:124] "GET /post/1/ HTTP/1.1" 200 1210
+[21/Mar/2018 00:28:50] INFO [django.server:124] "GET /post/1/remove/ HTTP/1.1" 302 0
+[21/Mar/2018 00:28:50] INFO [django.server:124] "GET / HTTP/1.1" 200 1315
+[21/Mar/2018 00:28:58] INFO [django.server:124] "GET /post/new/ HTTP/1.1" 200 1342
+[21/Mar/2018 00:29:02] INFO [django.server:124] "POST /post/new/ HTTP/1.1" 302 0
+[21/Mar/2018 00:29:02] INFO [django.server:124] "GET / HTTP/1.1" 200 1315
+[21/Mar/2018 00:29:03] INFO [django.server:124] "GET /drafts/ HTTP/1.1" 200 999
+[21/Mar/2018 00:29:04] INFO [django.server:124] "GET /post/5/ HTTP/1.1" 200 1208
+[21/Mar/2018 00:29:05] INFO [django.server:124] "GET /post/5/publish/ HTTP/1.1" 302 0
+[21/Mar/2018 00:29:05] INFO [django.server:124] "GET /post/5/ HTTP/1.1" 200 1205
+[21/Mar/2018 00:29:07] INFO [django.server:124] "GET / HTTP/1.1" 200 1470
